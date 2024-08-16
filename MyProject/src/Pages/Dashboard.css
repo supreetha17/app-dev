@@ -1,0 +1,28 @@
+/* Dashboard.css */
+body {
+  background-color: #f4f4f4;
+}
+
+.card {
+  background-color: teal;
+  color: white;
+}
+
+.card-action-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
